@@ -23,16 +23,31 @@ html {
   scroll-behavior: smooth;
 }
 
+.token-slides-wrapper {
+    background-color: var(--dark-blu);
+}
+
 #buyhypha-slides {
-  margin-top: 30px
+  margin-top: 0px;
+  padding-top: 60px;
+
 }
 
 #buyhypha-slides > .slide {
   max-width: 100%;
-  margin: 10px;
+  margin: 10px 0px;
   border-radius: 10px;
 }
 
 .slide > img {
   max-width: 100%;
+  border-radius: 10px;
+}
+
+.simple-button-yellow.no-arrow:after {
+  display:none;
+}
+
+.simple-button-yellow.no-arrow:hover {
+  text-decoration: underline;
 }
