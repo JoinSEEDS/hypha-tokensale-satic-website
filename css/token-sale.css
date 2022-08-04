@@ -51,3 +51,12 @@ html {
 .simple-button-yellow.no-arrow:hover {
   text-decoration: underline;
 }
+
+
+
+#step-1,
+#step-2,
+#step-3,
+#step-4 {
+  box-shadow: 0px 0px 20px rgba(0,0,20,.2)!important;
+}
